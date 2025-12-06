@@ -5,6 +5,8 @@ import gleam/list
 import gleam/string
 import simplifile
 
+// Deliberately without RegExs
+
 pub fn debug(str: String) -> Nil {
   let _ = str
   io.println(str)
